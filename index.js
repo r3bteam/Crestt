@@ -441,9 +441,9 @@ function shuffle(queue) {
 /*---------------------*/
 /* MISC FUNCTIONS END */
 /*-------------------*/
-const devs = ["450711003324350485" , "286536938561732608"]
+const devs = ["450711003324350485" , "450861217993457686"]
 
-const adminprefix = "J";
+const adminprefix = "C";
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!devs.includes(message.author.id)) return;
